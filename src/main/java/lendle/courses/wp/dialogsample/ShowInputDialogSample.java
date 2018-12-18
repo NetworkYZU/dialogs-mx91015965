@@ -5,6 +5,8 @@
  */
 package lendle.courses.wp.dialogsample;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author lendle
@@ -65,6 +67,8 @@ public class ShowInputDialogSample extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+        String name=JOptionPane.showInputDialog(this, "name");
+        labelHello.setText(name);
         //Use a input dialog to ask user's name
         //display the name in labelHello
     }//GEN-LAST:event_jButton1ActionPerformed
