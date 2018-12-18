@@ -7,6 +7,7 @@ package lendle.courses.wp.dialogsample;
 
 import javax.swing.JDesktopPane;
 import javax.swing.JInternalFrame;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -72,6 +73,7 @@ public class ShowInternalMessageDialogSample extends javax.swing.JFrame {
 
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
         // TODO add your handling code here:
+        JOptionPane.showInternalMessageDialog(getContentPane(), "1");
         //show internal message dialog
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
